@@ -1,0 +1,83 @@
+  
+  body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    gap: 15px;
+    width: 2000px;
+    margin: 20px;
+  }
+  
+  .grid-container .item {
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Define grid areas */
+  .item1 {
+    background-color: rgb(194, 111, 84);
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+  
+  .item2 {
+    background-color: rgb(172, 147, 82);
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  
+  .item3 {
+    background-color: rgb(93, 151, 30);
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  
+  .item4 {
+    background-color: rgb(21, 72, 57);
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+  
+  .item5 {
+    background-color: rgb(52, 164, 155);
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  
+  .item6 {
+    background-color: rgb(99, 105, 200);
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+  
+  .item7 {
+    background-color: rgb(34, 44, 186);
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  
+  .item8 {
+    background-color: rgb(125, 58, 189);
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  
+  .item9 {
+    background-color: rgb(183, 70, 163);
+    grid-column: span 2;
+    grid-row: span 1;
+  }
