@@ -1,7 +1,6 @@
   
   body {
     background-color: #ffffff;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
@@ -27,7 +26,7 @@
     text-align: center;
   }
   
-  /* Define grid areas */
+  /* Defining grid areas */
   .item1 {
     background-color: rgb(194, 111, 84);
     grid-column: span 1;
